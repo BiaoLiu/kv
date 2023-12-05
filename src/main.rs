@@ -1,7 +1,8 @@
 mod error;
 mod pb;
-mod storage;
+mod server;
 mod service;
+mod storage;
 
 fn main() {
     println!("test");

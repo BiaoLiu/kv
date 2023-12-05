@@ -1,6 +1,8 @@
+use crate::error::KvError;
 use crate::pb::abi::command_request::RequestData;
-use crate::pb::abi::{CommandRequest, CommandResponse, Hget, Hgetall, Hset, Kvpair, Value, value};
+use crate::pb::abi::{value, CommandRequest, CommandResponse, Hget, Hgetall, Hset, Kvpair, Value};
 use http::StatusCode;
+
 pub mod abi;
 
 impl CommandRequest {
